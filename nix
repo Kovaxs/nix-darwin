@@ -1,1 +1,0 @@
-/Users/kovaxs/dotfiles/nix
