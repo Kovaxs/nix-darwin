@@ -115,6 +115,7 @@
                         "bash"
                         "mas"
                         "neovim"
+                        "ruff"
                     ];
                     masApps = {
                         # "Yoink" = 457622435;
