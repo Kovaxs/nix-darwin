@@ -108,14 +108,20 @@
                         # "firefox"
                         # "iina"
                         # "the-unarchiver"
+                        "keycastr"
+                        "libreoffice"
                         "sioyek"
                         "nikitabobko/tap/aerospace"
                     ];
                     brews = [
+                        "libmagic"
+                        "cmake"
                         "bash"
                         "mas"
                         "neovim"
                         "ruff"
+                        "nvtop"
+                        # "pyright"
                     ];
                     masApps = {
                         # "Yoink" = 457622435;
