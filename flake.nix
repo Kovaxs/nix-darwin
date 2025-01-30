@@ -108,10 +108,12 @@
                         # "firefox"
                         # "iina"
                         # "the-unarchiver"
+                        "alacritty"
                         "keycastr"
                         "libreoffice"
-                        "sioyek"
                         "nikitabobko/tap/aerospace"
+                        "sioyek"
+                        "zed@preview"
                     ];
                     brews = [
                         "libmagic"
