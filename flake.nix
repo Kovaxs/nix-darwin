@@ -108,7 +108,6 @@
                         # "firefox"
                         # "iina"
                         # "the-unarchiver"
-                        "alacritty"
                         "keycastr"
                         "libreoffice"
                         "nikitabobko/tap/aerospace"
