@@ -20,6 +20,7 @@
         # pkgs.lf
         # pkgs.lua
         pkgs.lua51Packages.lua
+        pkgs.devenv
         # pkgs.nodejs_22
         # pkgs.sioyek
         pkgs.mkalias
