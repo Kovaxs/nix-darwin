@@ -33,7 +33,7 @@
         # pkgs.dbus
         pkgs.bat
         pkgs.btop
-        pkgs.darwin.iproute2mac
+        pkgs.iproute2mac
         pkgs.fd
         pkgs.ffmpeg
         pkgs.ffmpegthumbnailer
@@ -114,7 +114,7 @@
                         "libreoffice"
                         "nikitabobko/tap/aerospace"
                         "sioyek"
-                        "zed@preview"
+                        # "zed@preview"
                     ];
                     brews = [
                         "libmagic"
@@ -128,7 +128,7 @@
                     ];
                     masApps = {
                         # "Yoink" = 457622435;
-                        "Surfingkeys" = 1609752330;  
+                        # "Surfingkeys" = 1609752330;  
                         "Telegram" = 747648890;
 
                     };
