@@ -143,7 +143,8 @@
     # https://nixos.wiki/wiki/Fonts
 
     fonts.packages = [
-        (pkgs.nerdfonts.override { fonts = [ "JetBrainsMono" ]; })  
+        # (pkgs.nerdfonts.override { fonts = [ "JetBrainsMono" ]; })  
+        pkgs.nerd-fonts.jetbrains-mono
     ];
 
     system.activationScripts.applications.text = let
