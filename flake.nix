@@ -121,6 +121,7 @@
                         "cmake"
                         "bash"
                         "mas"
+                        "tesseract"
                         # "neovim@0.9"
                         "ruff"
                         "nvtop"
