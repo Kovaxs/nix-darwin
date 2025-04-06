@@ -60,7 +60,7 @@
         pkgs.librsvg
         pkgs.luarocks
         pkgs.ncdu
-        # pkgs.neovim
+        pkgs.neovim
         pkgs.nmap
         pkgs.pkg-config
         pkgs.poppler
@@ -121,7 +121,7 @@
                         "cmake"
                         "bash"
                         "mas"
-                        "neovim"
+                        # "neovim@0.9"
                         "ruff"
                         "nvtop"
                         # "pyright"
