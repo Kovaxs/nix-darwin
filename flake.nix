@@ -60,7 +60,7 @@
         pkgs.librsvg
         pkgs.luarocks
         pkgs.ncdu
-        pkgs.neovim
+        # pkgs.neovim
         pkgs.nmap
         pkgs.pkg-config
         pkgs.poppler
@@ -122,7 +122,7 @@
                         "bash"
                         "mas"
                         "tesseract"
-                        # "neovim@0.9"
+                        "neovim"
                         "ruff"
                         "nvtop"
                         # "pyright"
