@@ -17,12 +17,9 @@
       # nixpkgs.config.allowUnsupportedSystem = true;
 
       environment.systemPackages = [
-        # pkgs.lf
-        # pkgs.lua
         pkgs.lua51Packages.lua
         pkgs.devenv
         pkgs.nodejs_22
-        # pkgs.sioyek
         pkgs.mkalias
         pkgs.cargo
         pkgs.rustc
@@ -30,7 +27,6 @@
         pkgs.ansible
         pkgs.ansible-lint
         pkgs.at-spi2-core
-        # pkgs.dbus
         pkgs.bat
         pkgs.btop
         pkgs.iproute2mac
@@ -41,7 +37,6 @@
         pkgs.fzf
         pkgs.ghostscript
         pkgs.girara
-        # pkgs.gimp-with-plugins
         pkgs.gimp
         pkgs.git
         pkgs.git-lfs
@@ -83,20 +78,8 @@
         pkgs.wireshark
         pkgs.vlc-bin
         pkgs.podman
-        pkgs.ollama
-        # pkgs.telegram-desktop
         pkgs.fzf
-        # pkgs.kitty
-        # pkgs.podman-desktop
-        # pkgs.logseq
-        # pkgs.sublime4
-        # pkgs.alacritty
-        # pkgs.py3cairo
-        # pkgs.pygobject3
-        # pkgs.sevenzip
-        # pkgs.font-symbols-only-nerd-font
-        # pkgs.qmk-toolbox
-    ];
+   ];
 
     homebrew = {
                     enable = true;
@@ -104,16 +87,11 @@
                         "nikitabobko/tap"
                     ];
                     casks = [
-                        # "hammerspoon"
-                        # "firefox"
-                        # "iina"
-                        # "the-unarchiver"
-                        "alacritty"
+                       "alacritty"
                         "keycastr"
                         "libreoffice"
                         "nikitabobko/tap/aerospace"
                         "sioyek"
-                        # "zed@preview"
                     ];
                     brews = [
                         "libmagic"
@@ -122,13 +100,11 @@
                         "mas"
                         "tesseract"
                         "neovim"
-                        "ruff"
                         "nvtop"
-                        # "pyright"
+                        "ruff"
+                        "lua-language-server"
                     ];
                     masApps = {
-                        # "Yoink" = 457622435;
-                        # "Surfingkeys" = 1609752330;  
                         "Telegram" = 747648890;
 
                     };
