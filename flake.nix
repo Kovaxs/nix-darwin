@@ -102,6 +102,7 @@
                         "neovim"
                         "nvtop"
                         "ruff"
+                        "pyright"
                         "lua-language-server"
                     ];
                     masApps = {
