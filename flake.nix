@@ -91,7 +91,7 @@
         # pkgs.logseq
         # pkgs.sublime4
         # pkgs.alacritty
-        # pkgs.node
+        pkgs.node
         # pkgs.py3cairo
         # pkgs.pygobject3
         # pkgs.sevenzip
