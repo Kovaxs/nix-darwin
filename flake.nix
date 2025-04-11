@@ -21,7 +21,7 @@
         # pkgs.lua
         pkgs.lua51Packages.lua
         pkgs.devenv
-        # pkgs.nodejs_22
+        pkgs.nodejs_22
         # pkgs.sioyek
         pkgs.mkalias
         pkgs.cargo
@@ -91,7 +91,6 @@
         # pkgs.logseq
         # pkgs.sublime4
         # pkgs.alacritty
-        pkgs.node
         # pkgs.py3cairo
         # pkgs.pygobject3
         # pkgs.sevenzip
