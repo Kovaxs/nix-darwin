@@ -56,6 +56,7 @@
         pkgs.luarocks
         pkgs.ncdu
         # pkgs.neovim
+        pkgs.uv
         pkgs.nmap
         pkgs.pkg-config
         pkgs.poppler
@@ -115,12 +116,11 @@
 
                 };
 
-    
+
     # TODO: find out how to install my ComicSans fonts
     # https://nixos.wiki/wiki/Fonts
 
     fonts.packages = [
-        # (pkgs.nerdfonts.override { fonts = [ "JetBrainsMono" ]; })  
         pkgs.nerd-fonts.jetbrains-mono
     ];
 
