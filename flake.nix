@@ -21,8 +21,9 @@
         pkgs.devenv
         pkgs.nodejs_22
         pkgs.mkalias
-        pkgs.cargo
-        pkgs.rustc
+        # pkgs.cargo
+        # pkgs.rustc
+        # pkgs.rustup
         pkgs.adwaita-icon-theme
         pkgs.ansible
         pkgs.ansible-lint
