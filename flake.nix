@@ -98,6 +98,7 @@
                     brews = [
                         "libmagic"
                         "cmake"
+                        "sql-formatter"
                         "clang-format"
                         "bash"
                         "mas"
