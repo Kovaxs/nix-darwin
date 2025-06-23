@@ -98,6 +98,7 @@
                     brews = [
                         "libmagic"
                         "cmake"
+                        "clang-format"
                         "bash"
                         "mas"
                         "tesseract"
