@@ -58,6 +58,7 @@
         pkgs.ncdu
         # pkgs.neovim
         pkgs.uv
+        pkgs.pixi
         pkgs.nmap
         pkgs.pkg-config
         pkgs.poppler
