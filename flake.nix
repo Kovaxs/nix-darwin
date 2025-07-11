@@ -91,6 +91,7 @@
                     ];
                     casks = [
                        "alacritty"
+                        # "ghostty"
                         "keycastr"
                         "libreoffice"
                         "nikitabobko/tap/aerospace"
@@ -109,6 +110,8 @@
                         "ruff"
                         "pyright"
                         "lua-language-server"
+                        "stylua"
+                        "codespell"
                     ];
                     masApps = {
                         "Telegram" = 747648890;
