@@ -98,6 +98,7 @@
                         "sioyek"
                     ];
                     brews = [
+                        "libomp"
                         "libmagic"
                         "cmake"
                         "sql-formatter"
