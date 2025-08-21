@@ -98,6 +98,7 @@
                         "sioyek"
                     ];
                     brews = [
+                        "pandoc"
                         "libomp"
                         "libmagic"
                         "cmake"
