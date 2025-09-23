@@ -153,6 +153,7 @@
       done
           '';
 
+    system.primaryUser = "kovaxs";
     system.defaults = {
         dock.autohide = true;
     };
