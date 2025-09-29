@@ -17,20 +17,13 @@
       # nixpkgs.config.allowUnsupportedSystem = true;
 
       environment.systemPackages = [
-        pkgs.lua51Packages.lua
-        pkgs.devenv
-        pkgs.nodejs_22
-        pkgs.mkalias
-        # pkgs.cargo
-        # pkgs.rustc
-        # pkgs.rustup
         pkgs.adwaita-icon-theme
         pkgs.ansible
         pkgs.ansible-lint
         pkgs.at-spi2-core
         pkgs.bat
         pkgs.btop
-        pkgs.iproute2mac
+        pkgs.devenv
         pkgs.fd
         pkgs.ffmpeg
         pkgs.ffmpegthumbnailer
@@ -38,7 +31,6 @@
         pkgs.fzf
         pkgs.ghostscript
         pkgs.girara
-        pkgs.gimp
         pkgs.git
         pkgs.git-lfs
         pkgs.glow
@@ -47,20 +39,22 @@
         pkgs.htop
         pkgs.httpie
         pkgs.imagemagick
+        pkgs.iproute2mac
         pkgs.irssi
         pkgs.jq
         pkgs.k9s
         pkgs.kind
-        pkgs.lazygit
         pkgs.lazydocker
+        pkgs.lazygit
         pkgs.librsvg
+        pkgs.lua51Packages.lua
         pkgs.luarocks
+        pkgs.mkalias
         pkgs.ncdu
-        # pkgs.neovim
-        pkgs.uv
-        pkgs.pixi
         pkgs.nmap
+        pkgs.nodejs_22
         pkgs.pkg-config
+        pkgs.podman
         pkgs.poppler
         pkgs.portaudio
         pkgs.pstree
@@ -69,19 +63,11 @@
         pkgs.texliveFull
         pkgs.tmux
         pkgs.tree
+        pkgs.uv
         pkgs.watch
         pkgs.wget
         pkgs.xclip
         pkgs.yazi
-        pkgs.zathura
-        pkgs.zoxide
-        pkgs.dbeaver-bin
-        pkgs.inkscape
-        # pkgs.obsidian
-        pkgs.wireshark
-        pkgs.vlc-bin
-        pkgs.podman
-        pkgs.fzf
    ];
 
     homebrew = {
