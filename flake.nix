@@ -77,7 +77,7 @@
         pkgs.zoxide
         pkgs.dbeaver-bin
         pkgs.inkscape
-        pkgs.obsidian
+        # pkgs.obsidian
         pkgs.wireshark
         pkgs.vlc-bin
         pkgs.podman
