@@ -84,6 +84,7 @@
                         "sioyek"
                     ];
                     brews = [
+                        "codex"
                         "gemini-cli"
                         "pandoc"
                         "libomp"
