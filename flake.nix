@@ -18,8 +18,8 @@
 
       environment.systemPackages = [
         pkgs.adwaita-icon-theme
-        pkgs.ansible
-        pkgs.ansible-lint
+        # pkgs.ansible
+        # pkgs.ansible-lint
         pkgs.at-spi2-core
         pkgs.bat
         pkgs.btop
@@ -42,7 +42,7 @@
         pkgs.iproute2mac
         pkgs.irssi
         pkgs.jq
-        pkgs.k9s
+        # pkgs.k9s
         pkgs.kind
         pkgs.lazydocker
         pkgs.lazygit
@@ -74,34 +74,45 @@
                     enable = true;
                     taps = [
                         "nikitabobko/tap"
+                        # "anomalyco/tap"
                     ];
                     casks = [
+                       "localsend"
                        "alacritty"
-                        # "ghostty"
+                        # "opcode"
+                        "ghostty"
                         "keycastr"
-                        "libreoffice"
+                        # "libreoffice"
                         "nikitabobko/tap/aerospace"
+                        # "anomalyco/tap/opencode"
                         "sioyek"
+                        "betterdisplay"
                     ];
                     brews = [
-                        "codex"
+                        # "minikube"
+                        # "helm"
+                        "homebank"
+                        # "codex"
+                        "cairo"
+                        "pkg-config"
                         "gemini-cli"
                         "pandoc"
                         "libomp"
                         "libmagic"
                         "cmake"
-                        "sql-formatter"
-                        "clang-format"
+                        # "sql-formatter"
+                        # "clang-format"
                         "bash"
                         "mas"
+                        "tree-sitter-cli"
                         "tesseract"
                         "neovim"
                         "nvtop"
-                        "ruff"
-                        "pyright"
-                        "lua-language-server"
-                        "stylua"
-                        "codespell"
+                        # "ruff"
+                        # "pyright"
+                        # "lua-language-server"
+                        # "stylua"
+                        # "codespell"
                     ];
                     masApps = {
                         "Telegram" = 747648890;
