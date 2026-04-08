@@ -63,7 +63,7 @@
         pkgs.texliveFull
         pkgs.tmux
         pkgs.tree
-        pkgs.uv
+        # pkgs.uv
         pkgs.watch
         pkgs.wget
         pkgs.xclip
@@ -74,50 +74,39 @@
                     enable = true;
                     taps = [
                         "nikitabobko/tap"
-                        # "anomalyco/tap"
                     ];
                     casks = [
                        "localsend"
                        "alacritty"
-                        # "opcode"
-                        "ghostty"
-                        "keycastr"
-                        # "libreoffice"
-                        "nikitabobko/tap/aerospace"
-                        # "anomalyco/tap/opencode"
-                        "sioyek"
-                        "betterdisplay"
+                       "ghostty"
+                       "keycastr"
+                       "nikitabobko/tap/aerospace"
+                       "sioyek"
+                       "betterdisplay"
+                       "font-fira-code-nerd-font"
                     ];
                     brews = [
                         # "minikube"
                         # "helm"
+                        "zig"
+                        "hledger"
+                        "worktrunk"
+                        "uv"
                         "homebank"
-                        # "codex"
                         "cairo"
                         "pkg-config"
-                        "gemini-cli"
                         "pandoc"
                         "libomp"
                         "libmagic"
                         "cmake"
-                        # "sql-formatter"
-                        # "clang-format"
                         "bash"
                         "mas"
                         "tree-sitter-cli"
                         "tesseract"
                         "neovim"
                         "nvtop"
-                        # "ruff"
-                        # "pyright"
-                        # "lua-language-server"
-                        # "stylua"
-                        # "codespell"
+                        "gh"
                     ];
-                    masApps = {
-                        "Telegram" = 747648890;
-
-                    };
                     onActivation.cleanup = "zap";
                     onActivation.autoUpdate = true;
                     onActivation.upgrade = true;
