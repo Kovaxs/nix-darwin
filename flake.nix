@@ -92,12 +92,12 @@
           "sioyek"
           "betterdisplay"
           "font-fira-code-nerd-font"
+          "nikitabobko/tap/aerospace"
         ];
         brews = [
           # "minikube"
           # "helm"
           "ansible"
-          "nikitabobko/tap/aerospace"
           "hashicorp/tap/terraform"
           "node"
           "zig"
