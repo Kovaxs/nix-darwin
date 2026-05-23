@@ -60,7 +60,7 @@
         pkgs.mkalias
         pkgs.ncdu
         pkgs.nmap
-        pkgs.nodejs_22
+        # pkgs.nodejs_22
         pkgs.pkg-config
         pkgs.podman
         pkgs.poppler
@@ -82,13 +82,14 @@
         enable = true;
         taps = [
           "nikitabobko/tap"
+          "hashicorp/tap"
         ];
         casks = [
+          # "opencode-desktop"
           "localsend"
           "alacritty"
           "ghostty"
           "keycastr"
-          "nikitabobko/tap/aerospace"
           "sioyek"
           "betterdisplay"
           "font-fira-code-nerd-font"
@@ -96,6 +97,10 @@
         brews = [
           # "minikube"
           # "helm"
+          "ansible"
+          "nikitabobko/tap/aerospace"
+          "hashicorp/tap/terraform"
+          "node"
           "zig"
           "hledger"
           "worktrunk"
@@ -131,7 +136,7 @@
         env = pkgs.buildEnv {
           name = "system-applications";
           paths = config.environment.systemPackages;
-          pathsToLink = "/Applications";
+          pathsToLink = ["/Applications"];
         };
       in
         pkgs.lib.mkForce ''
