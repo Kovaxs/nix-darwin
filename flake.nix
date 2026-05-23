@@ -85,7 +85,6 @@
           "hashicorp/tap"
         ];
         casks = [
-          # "opencode-desktop"
           "localsend"
           "alacritty"
           "ghostty"
