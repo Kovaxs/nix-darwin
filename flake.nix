@@ -3,9 +3,11 @@
 
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixpkgs-unstable";
-    nix-darwin.url = "github:LnL7/nix-darwin";
+    # nix-darwin.url = "github:LnL7/nix-darwin";
+    nix-darwin.url = "github:nix-darwin/nix-darwin/master";
     nix-darwin.inputs.nixpkgs.follows = "nixpkgs";
     nix-homebrew.url = "github:zhaofengli-wip/nix-homebrew";
+    workmux.url = "github:raine/workmux";
   };
 
   outputs = inputs @ {
@@ -13,6 +15,7 @@
     nix-darwin,
     nixpkgs,
     nix-homebrew,
+    workmux,
   }: let
     configuration = {
       pkgs,
@@ -70,6 +73,7 @@
         pkgs.sphinx
         pkgs.texliveFull
         pkgs.tmux
+        workmux.packages.${pkgs.stdenv.hostPlatform.system}.default
         pkgs.tree
         # pkgs.uv
         pkgs.watch
@@ -83,6 +87,7 @@
         taps = [
           "nikitabobko/tap"
           "hashicorp/tap"
+          # "bjarneo/cliamp"
         ];
         casks = [
           "localsend"
@@ -95,16 +100,28 @@
           "nikitabobko/tap/aerospace"
         ];
         brews = [
-          # "minikube"
-          # "helm"
+          # "cliamp"
+          "gnupg"
+          "pass"
+          "minikube"
+          "fastfetch"
+          {
+            name = "derailed/k9s/k9s";
+            trusted = true;
+          }
+          # "raine/workmux/workmux"
+          "helm"
           "ansible"
-          "hashicorp/tap/terraform"
+          {
+            name = "hashicorp/tap/terraform";
+            trusted = true;
+          }
           "node"
           "zig"
           "hledger"
           "worktrunk"
           "uv"
-          "homebank"
+          # "homebank"
           "cairo"
           "pkg-config"
           "pandoc"
