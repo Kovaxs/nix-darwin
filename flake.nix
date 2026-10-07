@@ -104,6 +104,7 @@
           "jjui"
           "jj"
           "pass-otp"
+          # "pinentry-mac"
           "tuicr"
           "gnupg"
           "pass"
