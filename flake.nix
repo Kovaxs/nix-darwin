@@ -7,7 +7,6 @@
     nix-darwin.url = "github:nix-darwin/nix-darwin/master";
     nix-darwin.inputs.nixpkgs.follows = "nixpkgs";
     nix-homebrew.url = "github:zhaofengli-wip/nix-homebrew";
-    workmux.url = "github:raine/workmux";
   };
 
   outputs = inputs @ {
@@ -15,7 +14,6 @@
     nix-darwin,
     nixpkgs,
     nix-homebrew,
-    workmux,
   }: let
     configuration = {
       pkgs,
@@ -73,7 +71,6 @@
         pkgs.sphinx
         pkgs.texliveFull
         pkgs.tmux
-        workmux.packages.${pkgs.stdenv.hostPlatform.system}.default
         pkgs.tree
         # pkgs.uv
         pkgs.watch
