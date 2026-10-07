@@ -101,6 +101,10 @@
         ];
         brews = [
           # "cliamp"
+          "jjui"
+          "jj"
+          "pass-otp"
+          "tuicr"
           "gnupg"
           "pass"
           "minikube"
